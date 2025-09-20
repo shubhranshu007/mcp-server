@@ -4,6 +4,7 @@ FROM python:3.12-slim
 # Set working directory
 WORKDIR /app
 
+
 # Install system dependencies (for git, gcc if needed)
 RUN apt-get update && apt-get install -y --no-install-recommends \
     git \
